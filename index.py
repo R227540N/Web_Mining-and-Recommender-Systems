@@ -235,7 +235,8 @@ def home():
   <img src="{logo_uri}" alt="UZ Logo" class="header-logo" onerror="this.style.display='none'">
   <div class="header-text">
     <h1>🌍 Global News</h1>
-    <p class="subtitle">University of Zimbabwe &nbsp;|&nbsp; Clustered Topics &nbsp;|&nbsp; {current_time}</p>
+    <p class="subtitle">University of Zimbabwe &nbsp;|&nbsp; Clustered Topics &nbsp;|&nbsp; {current_time};|&nbsp; 
+  <span id="zim-time">Loading time...</span></p>
   </div>
   <img src="{logo_uri}" alt="UZ Logo" class="header-logo" onerror="this.style.display='none'">
 </header>
